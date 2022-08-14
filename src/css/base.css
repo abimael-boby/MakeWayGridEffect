@@ -275,3 +275,28 @@ a:focus-visible {
 		grid-template-columns: repeat(7,1fr);
 	}
 }
+
+.box-head{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+}
+.box-head .content__text-img{
+	height: 110px;
+    max-height: 130px;
+}
+
+.link-inscri{
+	background: #5077e0;
+    color: #fff;
+    padding: 8px 51px;
+    border-radius: 12px;
+	cursor: pointer;
+	border: none;
+}
+.link-inscri:hover{
+	border: none;
+	background-color: #0d2d85;
+	color: #fff;
+}
